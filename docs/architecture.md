@@ -83,3 +83,94 @@ flowchart TD
     style F fill:#bbf,stroke:#333
     style H fill:#ffcc00,stroke:#333
     style I fill:#90ee90,stroke:#333
+
+```
+
+___
+
+## 🏗️ Architecture Overview
+
+RainGuard AI follows a modern full-stack architecture designed for scalability, real-time processing, and automation.
+
+- **Frontend:** React  
+  - Handles user interaction, dashboard display, and policy selection  
+
+- **Backend:** Node.js  
+  - Manages business logic, APIs, trigger evaluation, and claim processing  
+
+- **Database:** MongoDB  
+  - Stores user data, policies, risk scores, and transaction history  
+
+- **External APIs:** OpenWeather API  
+  - Provides real-time weather and environmental data  
+
+- **Payments:** Razorpay (Test Mode)  
+  - Handles automated payout processing  
+
+---
+
+## 🎯 Key Design Principles
+
+### ⚡ Real-Time Decision Making
+- System continuously monitors environmental conditions  
+- Instant trigger-based execution without delays  
+
+---
+
+### 🤖 AI-Driven Risk Assessment
+- Uses historical + real-time data  
+- Generates dynamic risk scores  
+- Enables adaptive pricing model  
+
+---
+
+### 🔄 Fully Automated Workflow
+- No manual claims required  
+- End-to-end automation from detection → payout  
+
+---
+
+### 🔒 Fraud-Resistant Architecture
+- GPS-based location validation  
+- Weather API cross-verification  
+- Duplicate claim prevention  
+
+---
+
+### 📈 Scalable Design
+- Supports expansion across multiple cities  
+- Modular components for easy scaling  
+
+---
+
+## 🚀 Future Enhancements
+
+### 🧩 Microservices Architecture
+- Split modules into independent services  
+- Improves scalability and fault isolation  
+
+---
+
+### 📡 Real-Time Event Streaming (Kafka)
+- Enables faster and more reliable data processing  
+- Handles high-frequency weather updates  
+
+---
+
+### 🧠 Continuous ML Pipeline
+- Model retraining using new data  
+- Improves prediction accuracy over time  
+
+---
+
+### 🛡️ Advanced Fraud Detection
+- Behavioral analysis using ML  
+- Detect suspicious patterns and anomalies  
+
+---
+
+### 🗺️ Geo-Based Risk Heatmaps
+- Visualize risk levels across regions  
+- Helps optimize pricing and alerts  
+
+---
