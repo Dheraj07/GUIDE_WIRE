@@ -42,3 +42,78 @@ A Swiggy/Zomato delivery partner:
 ## 💰 Weekly Pricing Model
 
 **Formula:**
+
+Weekly Premium = Base Price + Risk Factor
+
+**Example:**
+
+- Base = ₹50  
+- Rain Risk = ₹10  
+- Pollution Risk = ₹5  
+
+➡ **Total = ₹65/week**
+
+📍 Premium adjusts dynamically based on location risk.
+
+---
+
+## 🤖 AI Integration
+
+- Uses historical weather data  
+- Predicts disruption probability  
+- Generates risk score (0–1)  
+- Adjusts weekly premium dynamically  
+
+---
+
+## 🚨 Fraud Detection
+
+- GPS-based location validation  
+- Weather API cross-verification  
+- Duplicate claim prevention  
+
+---
+
+## 🔄 Workflow
+
+User registers  
+→ Location tracked  
+→ Weather API monitored  
+→ AI risk evaluated  
+→ Trigger condition met  
+→ Claim auto-approved  
+→ Instant payout processed  
+
+---
+
+## 🏗️ Tech Stack
+
+- **Frontend:** React  
+- **Backend:** Node.js  
+- **Database:** MongoDB  
+- **APIs:** OpenWeather API  
+- **Payments:** Razorpay (Test Mode)  
+
+---
+
+## 📊 Future Enhancements
+
+- Worker dashboard (earnings protected, coverage status)  
+- Risk heatmaps for cities  
+- Predictive alerts for high-risk days  
+- Advanced ML-based fraud detection  
+
+---
+
+## 🎯 Key Value
+
+- ✅ Fully automated (zero manual claims)  
+- ✅ Weekly pricing aligned with gig workers  
+- ✅ Fast payouts = high trust  
+- ✅ Scalable across multiple platforms  
+
+---
+
+## 📌 Project Status
+
+🚧 Currently in development — MVP in progress.
